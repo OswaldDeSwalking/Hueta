@@ -14,7 +14,7 @@ public class Database
 
     public void Connection() throws SQLException
     {
-        c = DriverManager.getConnection("jdbc:sqlite:d:\\Jobs\\arm.db");
+        c = DriverManager.getConnection("jdbc:sqlite:d:\\Jobs\\arm2.db");
         statement = c.createStatement();
         statement1 = c.createStatement();
         statement2 = c.createStatement();
